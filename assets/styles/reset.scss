@@ -1,0 +1,72 @@
+@import './colors.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $main;
+  font-family: 'Rubik', Roboto, sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  color: $white;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+}
+a {
+  text-decoration: none;
+  color: $white;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button {
+  border: 0;
+  outline: none;
+  background: none;
+}
+
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.violet {
+  color: $violet;
+}
+
+.tomato {
+  color: $tomato;
+}
