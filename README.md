@@ -1,7 +1,5 @@
-<h1>Hello</h1>
-<code>
-  Как вариант можно было использовать PHP:
-
+<h1> Как вариант можно было использовать PHP</h1>
+```php
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
@@ -34,4 +32,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
-</code>
+```
